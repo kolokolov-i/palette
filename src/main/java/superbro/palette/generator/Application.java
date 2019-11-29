@@ -3,7 +3,7 @@ package superbro.palette.generator;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import superbro.palette.dto.*;
+import superbro.palette.model.*;
 import superbro.palette.util.JsonConverter;
 
 import java.awt.*;
