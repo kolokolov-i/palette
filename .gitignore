@@ -1,0 +1,11 @@
+bin/
+build/
+.gradle
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+/gradlew
+/gradlew.bat

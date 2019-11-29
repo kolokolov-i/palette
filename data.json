@@ -1,0 +1,71 @@
+{
+  "name": "TEST Palette",
+  "groups": [
+    {
+      "name": "G001",
+      "chips": [
+        {
+          "name": "TST01",
+          "color": "#000000"
+        },
+        {
+          "name": "TST02",
+          "color": "#FF0000"
+        },
+        {
+          "name": "TST03",
+          "color": "#00FF00"
+        },
+        {
+          "name": "TST04",
+          "color": "#0000FF"
+        },
+        {
+          "name": "TST05",
+          "color": "#FF00FF"
+        },
+        {
+          "name": "TST06",
+          "color": "#FFFF00"
+        },
+        {
+          "name": "TST07",
+          "color": "#00FFFF"
+        }
+      ]
+    },
+    {
+      "name": "G002",
+      "chips": [
+        {
+          "name": "TST11",
+          "color": "#AAAAAA"
+        },
+        {
+          "name": "TST12",
+          "color": "#AA0000"
+        },
+        {
+          "name": "TST13",
+          "color": "#00AA00"
+        },
+        {
+          "name": "TST14",
+          "color": "#0000AA"
+        },
+        {
+          "name": "TST15",
+          "color": "#AA00AA"
+        },
+        {
+          "name": "TST16",
+          "color": "#AAAA00"
+        },
+        {
+          "name": "TST17",
+          "color": "#00AAAA"
+        }
+      ]
+    }
+  ]
+}
