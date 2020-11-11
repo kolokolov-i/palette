@@ -7,24 +7,22 @@ import superbro.palette.model.*;
 import superbro.palette.util.JsonConverter;
 
 import java.awt.*;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class Application {
 
     public static void main(String[] args) throws IOException {
-        Palette palette = readFrom("data.json");
+        Palette palette = readFrom("ral-classic.json");
         PDDocument document = DocumentBuilder.build(palette);
         // TODO gui dialogs
         document.save(palette.getName()+".pdf");
         document.close();
     }
 
-    private static Palette readFrom(String fileName) throws FileNotFoundException {
+    private static Palette readFrom(String fileName) throws FileNotFoundException, UnsupportedEncodingException {
         Gson gson = new GsonBuilder()
-                .registerTypeAdapter(Color.class, new JsonConverter.ColorDesializer())
+                .registerTypeAdapter(Color.class, new JsonConverter.ChipGroupDeserializer())
                 .create();
-        return gson.fromJson(new FileReader(fileName), Palette.class);
+        return gson.fromJson(new InputStreamReader(new FileInputStream(fileName), "UTF-8"), Palette.class);
     }
 }

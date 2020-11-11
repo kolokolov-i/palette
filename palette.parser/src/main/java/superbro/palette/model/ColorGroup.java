@@ -3,14 +3,11 @@ package superbro.palette.model;
 import java.util.List;
 
 public class ColorGroup {
-    private String name;
-    private List<ColorChip> chips;
+    public String name;
+    public ChipLayout layout;
+    public List<ColorChip> chips;
 
-    public String getName() {
-        return name;
-    }
-
-    public List<ColorChip> getChips() {
-        return chips;
+    public enum ChipLayout{
+        Narrow, Wide
     }
 }

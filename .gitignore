@@ -10,3 +10,6 @@ out/
 /gradlew
 /gradlew.bat
 /TEST Palette.pdf
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+/drawing-1.svg

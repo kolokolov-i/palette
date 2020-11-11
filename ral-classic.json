@@ -1,0 +1,18 @@
+{
+  "name": "RAL Classic",
+  "groups": [
+    {
+      "name": "Жёлтые тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 1000",
+          "description": "Зелёно-бежевый",
+          "colorRGB": "#CCC58F",
+          "colorCMYKc": "10 10 50 10",
+          "colorCMYKu": "0 3 40 10"
+        }
+      ]
+    }
+  ]
+}
