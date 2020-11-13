@@ -19,7 +19,11 @@ class GeometryUtil {
     final static float ctChipsCW = pageWidth - marginLeft - marginRight - ctGroupCW;
     final static float ctRowH = toPix(15);
 
-    static float toPix(float mm){
-        return (float) (mm/25.4*72);
+    static float toPix(float mm) {
+        return (float) (mm / 25.4 * 72);
+    }
+
+    static float toMM(float pix) {
+        return (float) (pix * 25.4 / 72);
     }
 }

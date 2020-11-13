@@ -11,6 +11,48 @@
           "colorRGB": "#CCC58F",
           "colorCMYKc": "10 10 50 10",
           "colorCMYKu": "0 3 40 10"
+        },
+        {
+          "name": "RAL 1001",
+          "description": "Бежевый",
+          "colorRGB": "#D1BC8A",
+          "colorCMYKc": " 0  20  50  20",
+          "colorCMYKu": "10  20  40   0"
+        },
+        {
+          "name": "RAL 1002",
+          "description": "Песочно-жёлтый",
+          "colorRGB": "#D2B773",
+          "colorCMYKc": "  0  20  60  10",
+          "colorCMYKu": " 3  23  60   7"
+        },
+        {
+          "name": "RAL 1003",
+          "description": "",
+          "colorRGB": "#F7BA0B",
+          "colorCMYKc": "",
+          "colorCMYKu": ""
+        },
+        {
+          "name": "RAL 1004",
+          "description": "",
+          "colorRGB": "#E2B007",
+          "colorCMYKc": "",
+          "colorCMYKu": ""
+        },
+        {
+          "name": "RAL 1005",
+          "description": "",
+          "colorRGB": "#C89F04",
+          "colorCMYKc": "",
+          "colorCMYKu": ""
+        },
+        {
+          "name": "RAL 1006",
+          "description": "",
+          "colorRGB": "#E1A100",
+          "colorCMYKc": "",
+          "colorCMYKu": ""
         }
       ]
     }

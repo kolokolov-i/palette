@@ -7,16 +7,15 @@ import org.apache.pdfbox.pdmodel.PDPageContentStream;
 import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.pdmodel.font.PDFont;
 import org.apache.pdfbox.pdmodel.font.PDType0Font;
-import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import superbro.palette.model.ColorChip;
 import superbro.palette.model.ColorGroup;
 import superbro.palette.model.Palette;
 
-import java.awt.Color;
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 import static superbro.palette.generator.GeometryUtil.*;
@@ -32,31 +31,53 @@ class DocumentBuilder {
     }
 
     private static void buildPages(PDDocument document, List<PageData> pages) throws IOException {
-        for(PageData pageData : pages){
+        for (PageData pageData : pages) {
             PDPage pdPage = new PDPage(PDRectangle.A4);
             PDPageContentStream content = new PDPageContentStream(document, pdPage);
             PDFont font = PDType0Font.load(document, new File("GOTHIC.TTF"));
             content.setFont(font, 24);
             content.setNonStrokingColor(Color.BLACK);
             content.beginText();
-            content.newLineAtOffset(toPix(0), toPix(0));
+            content.newLineAtOffset(marginLeft + toPix(2), pageHeight - marginUp - toPix(8));
             content.showText(pageData.title);
             content.endText();
-//
-//            float curX, curY;
-//            curY = pageHeight - marginUp;
-//            for (ColorGroup group : palette.getGroups()) {
-//                curX = marginLeft;
-//                float chipW = ctChipsCW / group.getChips().size();
-//                curX += ctGroupCW;
-//                for (ColorChip chip : group.getChips()) {
-//                    content.setNonStrokingColor(chip.getColor());
-//                    content.addRect(curX, curY - ctRowH, chipW - 5, ctRowH - 5);
-//                    content.fill();
-//                    curX += chipW;
-//                }
-//                curY -= ctRowH;
-//            }
+            content.setStrokingColor(Color.BLACK);
+            content.setLineWidth(1);
+            content.moveTo(marginLeft, pageHeight - marginUp - toPix(10));
+            content.lineTo(pageWidth - marginRight, pageHeight - marginUp - toPix(10));
+            content.stroke();
+            content.beginText();
+            content.newLineAtOffset(pageWidth - marginRight - toPix(25), pageHeight - marginUp - toPix(8));
+            content.showText(pageData.number);
+            content.endText();
+            content.setFont(font, 14);
+            float curX, curY, gridW, gridH, chipW, chipH;
+            int curColumn = 0;
+            gridW = pageData.layout.getGridW();
+            gridH = pageData.layout.getGridH();
+            chipW = pageData.layout.getChipW();
+            chipH = pageData.layout.getChipH();
+            curX = marginLeft;
+            curY = pageHeight - marginUp - toPix(18);
+            Iterator<ColorChip> chipIter = pageData.chips.iterator();
+            while (chipIter.hasNext()) {
+                if(curColumn >= pageData.layout.getRowCapacity()){
+                    curColumn = 0;
+                    curX = marginLeft;
+                    curY -= toPix(gridH);
+                }
+                ColorChip chip = chipIter.next();
+                content.setNonStrokingColor(Color.BLACK);
+                content.beginText();
+                content.newLineAtOffset(curX + toPix(2), curY + toPix(2));
+                content.showText(chip.name);
+                content.endText();
+                content.setNonStrokingColor(Color.decode(chip.colorRGB));
+                content.addRect(curX, curY - toPix(chipH), toPix(chipW), toPix(chipH));
+                content.fill();
+                curX += toPix(gridW);
+                curColumn++;
+            }
             content.close();
             document.addPage(pdPage);
         }
@@ -66,32 +87,23 @@ class DocumentBuilder {
         List<PageData> result = new ArrayList<>();
         List<ColorGroup> groups = palette.getGroups();
         int groupNumber = 1;
-        for(ColorGroup group : groups){
-            int pageCapacity = 0;
-            switch(group.layout){
-                case Narrow:
-                    pageCapacity = 66;
-                    break;
-                case Wide:
-                    pageCapacity = 56;
-                    break;
-                default:
-            }
+        for (ColorGroup group : groups) {
+            int pageCapacity = group.layout.getPageCapacity();
             List<ColorChip> chips = group.chips;
             int totalPages = (int) Math.ceil(chips.size() / (double) pageCapacity);
-            for(int i = 0, pageNumber = 1; i<chips.size(); i+=pageCapacity, pageNumber++){
+            for (int i = 0, pageNumber = 1; i < chips.size(); i += pageCapacity, pageNumber++) {
                 PageData pageData = new PageData();
-                if(totalPages == 1){
+                pageData.layout = group.layout;
+                if (totalPages == 1) {
                     pageData.title = group.name;
-                    pageData.number = groupNumber + "G";
-                }
-                else{
+                    pageData.number = groupNumber + "G" + pageNumber;
+                } else {
                     pageData.title = String.format("%s ( %d / %d )", group.name, pageNumber, totalPages);
                     pageData.number = groupNumber + "G" + pageNumber;
                 }
                 int lastChipIndex = i + pageCapacity - 1;
-                lastChipIndex = lastChipIndex >= chips.size() ?  chips.size() - 1 : lastChipIndex;
-                pageData.chips = chips.subList(i, lastChipIndex).toArray(new ColorChip[0]);
+                lastChipIndex = Math.min(lastChipIndex, chips.size());
+                pageData.chips = chips.subList(i, lastChipIndex);
                 result.add(pageData);
             }
             groupNumber++;
@@ -99,9 +111,10 @@ class DocumentBuilder {
         return result;
     }
 
-    static class PageData{
+    static class PageData {
         String title;
         String number;
-        ColorChip[] chips;
+        List<ColorChip> chips;
+        ColorGroup.ChipLayout layout;
     }
 }
