@@ -15,7 +15,6 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import static superbro.palette.generator.GeometryUtil.*;
@@ -53,26 +52,24 @@ class DocumentBuilder {
             content.setFont(font, 14);
             float curX, curY, gridW, gridH, chipW, chipH;
             int curColumn = 0;
-            gridW = pageData.layout.getGridW();
-            gridH = pageData.layout.getGridH();
-            chipW = pageData.layout.getChipW();
-            chipH = pageData.layout.getChipH();
+            gridW = pageData.layout.gridW;
+            gridH = pageData.layout.gridH;
+            chipW = pageData.layout.chipW;
+            chipH = pageData.layout.chipH;
             curX = marginLeft;
             curY = pageHeight - marginUp - toPix(18);
-            Iterator<ColorChip> chipIter = pageData.chips.iterator();
-            while (chipIter.hasNext()) {
-                if(curColumn >= pageData.layout.getRowCapacity()){
+            for (ColorChip colorChip : pageData.chips) {
+                if (curColumn >= pageData.layout.rowCapacity) {
                     curColumn = 0;
                     curX = marginLeft;
                     curY -= toPix(gridH);
                 }
-                ColorChip chip = chipIter.next();
                 content.setNonStrokingColor(Color.BLACK);
                 content.beginText();
                 content.newLineAtOffset(curX + toPix(2), curY + toPix(2));
-                content.showText(chip.name);
+                content.showText(colorChip.name);
                 content.endText();
-                content.setNonStrokingColor(Color.decode(chip.colorRGB));
+                content.setNonStrokingColor(Color.decode(colorChip.colorRGB));
                 content.addRect(curX, curY - toPix(chipH), toPix(chipW), toPix(chipH));
                 content.fill();
                 curX += toPix(gridW);
@@ -88,7 +85,7 @@ class DocumentBuilder {
         List<ColorGroup> groups = palette.getGroups();
         int groupNumber = 1;
         for (ColorGroup group : groups) {
-            int pageCapacity = group.layout.getPageCapacity();
+            int pageCapacity = group.layout.pageCapacity;
             List<ColorChip> chips = group.chips;
             int totalPages = (int) Math.ceil(chips.size() / (double) pageCapacity);
             for (int i = 0, pageNumber = 1; i < chips.size(); i += pageCapacity, pageNumber++) {

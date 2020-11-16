@@ -8,73 +8,19 @@ public class ColorGroup {
     public List<ColorChip> chips;
 
     public enum ChipLayout {
-        Narrow, Wide;
+        Narrow(66, 6, 30, 23, 25, 15),
+        Wide(56, 4, 45, 18, 40, 10);
 
-        public int getPageCapacity(){
-            switch (this) {
-                case Narrow:
-                    return 66;
-                case Wide:
-                    return 56;
-                default:
-                    return 0;
-            }
-        }
+        public final int pageCapacity, rowCapacity;
+        public final float gridW, gridH, chipW, chipH;
 
-        public int getRowCapacity() {
-            switch (this) {
-                case Narrow:
-                    return 6;
-                case Wide:
-                    return 4;
-                default:
-                    return 0;
-            }
-        }
-
-        public float getGridW() {
-            switch (this) {
-                case Narrow:
-                    return 30;
-                case Wide:
-                    return 45;
-                default:
-                    return 0;
-            }
-        }
-
-        public float getGridH() {
-            switch (this) {
-                case Narrow:
-                    return 23;
-                case Wide:
-                    return 18;
-                default:
-                    return 0;
-            }
-        }
-
-        public float getChipW() {
-            switch (this) {
-                case Narrow:
-                    return 25;
-                case Wide:
-                    return 40;
-                default:
-                    return 0;
-            }
-        }
-
-        public float getChipH() {
-            switch (this) {
-                case Narrow:
-                    return 15;
-                case Wide:
-                    return 10;
-                default:
-                    return 0;
-            }
+        ChipLayout(int pageCapacity, int rowCapacity, float gridW, float gridH, float chipW, float chipH) {
+            this.pageCapacity = pageCapacity;
+            this.rowCapacity = rowCapacity;
+            this.gridW = gridW;
+            this.gridH = gridH;
+            this.chipW = chipW;
+            this.chipH = chipH;
         }
     }
-
 }
