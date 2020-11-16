@@ -16,43 +16,1533 @@
           "name": "RAL 1001",
           "description": "Бежевый",
           "colorRGB": "#D1BC8A",
-          "colorCMYKc": " 0  20  50  20",
-          "colorCMYKu": "10  20  40   0"
+          "colorCMYKc": "0 20 50 20",
+          "colorCMYKu": "10 20 40 0"
         },
         {
           "name": "RAL 1002",
           "description": "Песочно-жёлтый",
           "colorRGB": "#D2B773",
-          "colorCMYKc": "  0  20  60  10",
-          "colorCMYKu": " 3  23  60   7"
+          "colorCMYKc": "0 20 60 10",
+          "colorCMYKu": "3 23 60 7"
         },
         {
           "name": "RAL 1003",
-          "description": "",
+          "description": "Сигнальный жёлтый",
           "colorRGB": "#F7BA0B",
-          "colorCMYKc": "",
-          "colorCMYKu": ""
+          "colorCMYKc": "5 20 90 0",
+          "colorCMYKu": "0 20 100 0"
         },
         {
           "name": "RAL 1004",
-          "description": "",
+          "description": "Жёлто-золотой",
           "colorRGB": "#E2B007",
-          "colorCMYKc": "",
-          "colorCMYKu": ""
+          "colorCMYKc": "5 30 100 0",
+          "colorCMYKu": "0 20 100 10"
         },
         {
           "name": "RAL 1005",
-          "description": "",
+          "description": "Медово-жёлтый",
           "colorRGB": "#C89F04",
-          "colorCMYKc": "",
-          "colorCMYKu": ""
+          "colorCMYKc": "10 30 100 0",
+          "colorCMYKu": "10 20 90 0"
         },
         {
           "name": "RAL 1006",
-          "description": "",
+          "description": "Кукурузно-жёлтый",
           "colorRGB": "#E1A100",
-          "colorCMYKc": "",
-          "colorCMYKu": ""
+          "colorCMYKc": "5 30 90 0",
+          "colorCMYKu": "0 30 100 0"
+        },
+        {
+          "name": "RAL 1007",
+          "description": "Нарциссово-жёлтый",
+          "colorRGB": "#E79C00",
+          "colorCMYKc": "0 40 100 0",
+          "colorCMYKu": "0 30 100 0"
+        },
+        {
+          "name": "RAL 1011",
+          "description": "Коричнево-бежевый",
+          "colorRGB": "#AF8A54",
+          "colorCMYKc": "30 40 70 0",
+          "colorCMYKu": "20 50 100 10"
+        },
+        {
+          "name": "RAL 1012",
+          "description": "Лимонно-жёлтый",
+          "colorRGB": "#D9C022",
+          "colorCMYKc": "10 10 90 0",
+          "colorCMYKu": "10 10 100 0"
+        },
+        {
+          "name": "RAL 1013",
+          "description": "Жемчужно-белый",
+          "colorRGB": "#E9E5CE",
+          "colorCMYKc": "0 5 20 10",
+          "colorCMYKu": "10 10 20 0"
+        },
+        {
+          "name": "RAL 1014",
+          "description": "Слоновая кость",
+          "colorRGB": "#DED09F",
+          "colorCMYKc": "0 10 40 10",
+          "colorCMYKu": "10 10 30 0"
+        },
+        {
+          "name": "RAL 1015",
+          "description": "Светлая слоновая кость",
+          "colorRGB": "#EADEBD",
+          "colorCMYKc": "0 5 30 10",
+          "colorCMYKu": "10 10 20 0"
+        },
+        {
+          "name": "RAL 1016",
+          "description": "Жёлтая сера",
+          "colorRGB": "#EAF044",
+          "colorCMYKc": "10 0 90 0",
+          "colorCMYKu": "10 0 80 0"
+        },
+        {
+          "name": "RAL 1017",
+          "description": "Шафраново-жёлтый",
+          "colorRGB": "#F4B752",
+          "colorCMYKc": "0 30 70 0",
+          "colorCMYKu": "0 30 90 0"
+        },
+        {
+          "name": "RAL 1018",
+          "description": "Цинково-жёлтый",
+          "colorRGB": "#F3E03B",
+          "colorCMYKc": "0 0 80 0",
+          "colorCMYKu": "0 0 90 0"
+        },
+        {
+          "name": "RAL 1019",
+          "description": "Серо-бежевый",
+          "colorRGB": "#A4957D",
+          "colorCMYKc": "5 20 40 40",
+          "colorCMYKu": "10 20 30 0"
+        },
+        {
+          "name": "RAL 1020",
+          "description": "Оливково-жёлтый",
+          "colorRGB": "#9A9464",
+          "colorCMYKc": "1 5 30 40",
+          "colorCMYKu": "10 10 50 25"
+        },
+        {
+          "name": "RAL 1021",
+          "description": "Рапсово-жёлтый",
+          "colorRGB": "#EEC900",
+          "colorCMYKc": "0 10 100 0",
+          "colorCMYKu": "0 0 100 0"
+        },
+        {
+          "name": "RAL 1023",
+          "description": "Транспортно-жёлтый",
+          "colorRGB": "#F0CA00",
+          "colorCMYKc": "0 10 90 0",
+          "colorCMYKu": "0 10 100 0"
+        },
+        {
+          "name": "RAL 1024",
+          "description": "Охра жёлтая",
+          "colorRGB": "#B89C50",
+          "colorCMYKc": "30 40 70 10",
+          "colorCMYKu": "0 20 100 25"
+        },
+        {
+          "name": "RAL 1026",
+          "description": "",
+          "colorRGB": "#F5FF00",
+          "colorCMYKc": "0 0 100 0",
+          "colorCMYKu": "0 0 100 0"
+        },
+        {
+          "name": "RAL 1027",
+          "description": "Карри жёлтый",
+          "colorRGB": "#A38C15",
+          "colorCMYKc": "10 20 90 40",
+          "colorCMYKu": "30 30 100 0"
+        },
+        {
+          "name": "RAL 1028",
+          "description": "Дынно-жёлтый",
+          "colorRGB": "#FFAB00",
+          "colorCMYKc": "0 30 100 0",
+          "colorCMYKu": "0 20 100 0"
+        },
+        {
+          "name": "RAL 1032",
+          "description": "Жёлтый ракитник",
+          "colorRGB": "#DDB20F",
+          "colorCMYKc": "0 30 90 10",
+          "colorCMYKu": "0 20 100 10"
+        },
+        {
+          "name": "RAL 1033",
+          "description": "Георгиново-жёлтый",
+          "colorRGB": "#FAAB21",
+          "colorCMYKc": "0 30 90 0",
+          "colorCMYKu": "0 30 100 0"
+        },
+        {
+          "name": "RAL 1034",
+          "description": "Пастельно-жёлтый",
+          "colorRGB": "#EDAB56",
+          "colorCMYKc": "0 30 80 0",
+          "colorCMYKu": "0 30 60 0"
+        },
+        {
+          "name": "RAL 1035",
+          "description": "",
+          "colorRGB": "#A29985",
+          "colorCMYKc": "16 19 33 26",
+          "colorCMYKu": "20 20 33 12"
+        },
+        {
+          "name": "RAL 1036",
+          "description": "",
+          "colorRGB": "#927549",
+          "colorCMYKc": "33 46 80 18",
+          "colorCMYKu": "9 36 97 28"
+        },
+        {
+          "name": "RAL 1037",
+          "description": "Солнечно-жёлтый",
+          "colorRGB": "#EEA205",
+          "colorCMYKc": "0 40 100 0",
+          "colorCMYKu": "0 35 90 0"
+        }
+      ]
+    },
+    {
+      "name": "Оранжевые тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 2000",
+          "description": "Жёлто-оранжевый",
+          "colorRGB": "#DD7907",
+          "colorCMYKc": "0 50 100 0",
+          "colorCMYKu": "0 40 100 0"
+        },
+        {
+          "name": "RAL 2001",
+          "description": "Красно-оранжевый",
+          "colorRGB": "#BE4E24",
+          "colorCMYKc": "0 80 100 20",
+          "colorCMYKu": "0 70 100 0"
+        },
+        {
+          "name": "RAL 2002",
+          "description": "Алый",
+          "colorRGB": "#C63927",
+          "colorCMYKc": "0 90 100 10",
+          "colorCMYKu": "0 80 100 0"
+        },
+        {
+          "name": "RAL 2003",
+          "description": "Пастельно-оранжевый",
+          "colorRGB": "#FA842B",
+          "colorCMYKc": "0 52 100 0",
+          "colorCMYKu": "0 60 100 0"
+        },
+        {
+          "name": "RAL 2004",
+          "description": "Оранжевый",
+          "colorRGB": "#E75B12",
+          "colorCMYKc": "0 70 100 0",
+          "colorCMYKu": "0 70 100 0"
+        },
+        {
+          "name": "RAL 2005",
+          "description": "",
+          "colorRGB": "#FF2300",
+          "colorCMYKc": "0 75 75 5",
+          "colorCMYKu": "0 50 100 0"
+        },
+        {
+          "name": "RAL 2007",
+          "description": "",
+          "colorRGB": "#FFA421",
+          "colorCMYKc": "0 50 100 0",
+          "colorCMYKu": "0 20 90 0"
+        },
+        {
+          "name": "RAL 2008",
+          "description": "Ярко-красно-оранжевый",
+          "colorRGB": "#F3752C",
+          "colorCMYKc": "0 60 100 0",
+          "colorCMYKu": "0 50 100 0"
+        },
+        {
+          "name": "RAL 2009",
+          "description": "Транспортный оранжевый",
+          "colorRGB": "#E15501",
+          "colorCMYKc": "5 70 100 10",
+          "colorCMYKu": "0 60 100 0"
+        },
+        {
+          "name": "RAL 2010",
+          "description": "Сигнальный оранжевый",
+          "colorRGB": "#D4652F",
+          "colorCMYKc": "0 70 100 10",
+          "colorCMYKu": "0 60 100 0"
+        },
+        {
+          "name": "RAL 2011",
+          "description": "Насыщенный оранжевый",
+          "colorRGB": "#EC7C25",
+          "colorCMYKc": "0 55 100 0",
+          "colorCMYKu": "0 40 100 0"
+        },
+        {
+          "name": "RAL 2012",
+          "description": "Лососёво-оранжевый",
+          "colorRGB": "#DB6A50",
+          "colorCMYKc": "0 60 70 0",
+          "colorCMYKu": "0 80 80 0"
+        },
+        {
+          "name": "RAL 2013",
+          "description": "",
+          "colorRGB": "#954527",
+          "colorCMYKc": "0 80 100 40",
+          "colorCMYKu": "10 80 100 10"
+        }
+      ]
+    },
+    {
+      "name": "Красные тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 3000",
+          "description": "Огненно-красный",
+          "colorRGB": "#AB2524",
+          "colorCMYKc": "0 100 100 20",
+          "colorCMYKu": "0 100 90 0"
+        },
+        {
+          "name": "RAL 3001",
+          "description": "Сигнальный красный",
+          "colorRGB": "#A02128",
+          "colorCMYKc": "20 100 90 10",
+          "colorCMYKu": "0 100 90 0"
+        },
+        {
+          "name": "RAL 3002",
+          "description": "Карминно-красный",
+          "colorRGB": "#A1232B",
+          "colorCMYKc": "10 100 90 20",
+          "colorCMYKu": "0 100 90 0"
+        },
+        {
+          "name": "RAL 3003",
+          "description": "Рубиново-красный",
+          "colorRGB": "#8D1D2C",
+          "colorCMYKc": "0 100 100 40",
+          "colorCMYKu": "0 100 90 15"
+        },
+        {
+          "name": "RAL 3004",
+          "description": "Пурпурно-красный",
+          "colorRGB": "#701F29",
+          "colorCMYKc": "20 100 100 60",
+          "colorCMYKu": "0 100 90 30"
+        },
+        {
+          "name": "RAL 3005",
+          "description": "Винно-красный",
+          "colorRGB": "#5E2028",
+          "colorCMYKc": "20 100 80 40",
+          "colorCMYKu": "0 100 90 50"
+        },
+        {
+          "name": "RAL 3007",
+          "description": "Чёрно-красный",
+          "colorRGB": "#402225",
+          "colorCMYKc": "60 100 70 80",
+          "colorCMYKu": "50 100 90 40"
+        },
+        {
+          "name": "RAL 3009",
+          "description": "Оксид красный",
+          "colorRGB": "#703731",
+          "colorCMYKc": "5 90 100 80",
+          "colorCMYKu": "20 100 90 30"
+        },
+        {
+          "name": "RAL 3011",
+          "description": "Коричнево-красный",
+          "colorRGB": "#7E292C",
+          "colorCMYKc": "20 100 100 40",
+          "colorCMYKu": "0 100 90 30"
+        },
+        {
+          "name": "RAL 3012",
+          "description": "Бежево-красный",
+          "colorRGB": "#CB8D73",
+          "colorCMYKc": "5 50 50 10",
+          "colorCMYKu": "20 60 50 0"
+        },
+        {
+          "name": "RAL 3013",
+          "description": "Томатно-красный",
+          "colorRGB": "#9C322E",
+          "colorCMYKc": "20 90 100 20",
+          "colorCMYKu": "0 100 100 15"
+        },
+        {
+          "name": "RAL 3014",
+          "description": "Розовый антик",
+          "colorRGB": "#D47479",
+          "colorCMYKc": "0 70 30 10",
+          "colorCMYKu": "10 70 40 0"
+        },
+        {
+          "name": "RAL 3015",
+          "description": "Светло-розовый",
+          "colorRGB": "#E1A6AD",
+          "colorCMYKc": "0 50 20 10",
+          "colorCMYKu": "10 40 10 0"
+        },
+        {
+          "name": "RAL 3016",
+          "description": "Кораллово-красный",
+          "colorRGB": "#AC4034",
+          "colorCMYKc": "0 90 90 20",
+          "colorCMYKu": "0 90 90 10"
+        },
+        {
+          "name": "RAL 3017",
+          "description": "Розовый",
+          "colorRGB": "#D3545F",
+          "colorCMYKc": "0 80 50 10",
+          "colorCMYKu": "0 80 40 0"
+        },
+        {
+          "name": "RAL 3018",
+          "description": "Клубнично-красный",
+          "colorRGB": "#D14152",
+          "colorCMYKc": "5 90 70 5",
+          "colorCMYKu": "0 90 100 0"
+        },
+        {
+          "name": "RAL 3020",
+          "description": "Транспортный красный",
+          "colorRGB": "#C1121C",
+          "colorCMYKc": "0 100 100 10",
+          "colorCMYKu": "0 90 90 0"
+        },
+        {
+          "name": "RAL 3022",
+          "description": "Лососёво-красный",
+          "colorRGB": "#D56D56",
+          "colorCMYKc": "0 60 70 0",
+          "colorCMYKu": "0 70 60 0"
+        },
+        {
+          "name": "RAL 3024",
+          "description": "",
+          "colorRGB": "#F70000",
+          "colorCMYKc": "0 80 90 0",
+          "colorCMYKu": "0 70 100 0"
+        },
+        {
+          "name": "RAL 3026",
+          "description": "",
+          "colorRGB": "#FF0000",
+          "colorCMYKc": "0 80 100 0",
+          "colorCMYKu": "0 70 100 0"
+        },
+        {
+          "name": "RAL 3027",
+          "description": "Малиново-красный",
+          "colorRGB": "#B42041",
+          "colorCMYKc": "0 100 70 20",
+          "colorCMYKu": "0 100 60 15"
+        },
+        {
+          "name": "RAL 3028",
+          "description": "Красный",
+          "colorRGB": "#CB3334",
+          "colorCMYKc": "5 100 100 0",
+          "colorCMYKu": "5 100 100 0"
+        },
+        {
+          "name": "RAL 3031",
+          "description": "Ориент красный",
+          "colorRGB": "#AC323B",
+          "colorCMYKc": "20 100 90 20",
+          "colorCMYKu": "0 90 60 15"
+        },
+        {
+          "name": "RAL 3032",
+          "description": "",
+          "colorRGB": "#711521",
+          "colorCMYKc": "10 100 90 50",
+          "colorCMYKu": "10 100 100 30"
+        },
+        {
+          "name": "RAL 3033",
+          "description": "",
+          "colorRGB": "#B24C43",
+          "colorCMYKc": "8 84 72 13",
+          "colorCMYKu": "0 93 93 7"
+        }
+      ]
+    },
+    {
+      "name": "Фиолетовые тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 4001",
+          "description": "Красно-сиреневый",
+          "colorRGB": "#8A5A83",
+          "colorCMYKc": "60 70 5 10",
+          "colorCMYKu": "50 97 20 0"
+        },
+        {
+          "name": "RAL 4002",
+          "description": "Красно-фиолетовый",
+          "colorRGB": "#933D50",
+          "colorCMYKc": "40 100 90 5",
+          "colorCMYKu": "0 100 40 30"
+        },
+        {
+          "name": "RAL 4003",
+          "description": "Вересково-фиолетовый",
+          "colorRGB": "#D15B8F",
+          "colorCMYKc": "10 70 10 0",
+          "colorCMYKu": "7 90 0 0"
+        },
+        {
+          "name": "RAL 4004",
+          "description": "Бордово-фиолетовый",
+          "colorRGB": "#691639",
+          "colorCMYKc": "60 100 50 20",
+          "colorCMYKu": "10 100 0 50"
+        },
+        {
+          "name": "RAL 4005",
+          "description": "Сине-сиреневый",
+          "colorRGB": "#83639D",
+          "colorCMYKc": "60 100 5 10",
+          "colorCMYKu": "50 60 0 0"
+        },
+        {
+          "name": "RAL 4006",
+          "description": "Транспортный пурпурный",
+          "colorRGB": "#992572",
+          "colorCMYKc": "50 100 0 10",
+          "colorCMYKu": "30 100 0 0"
+        },
+        {
+          "name": "RAL 4007",
+          "description": "Пурпурно-фиолетовый",
+          "colorRGB": "#4A203B",
+          "colorCMYKc": "70 100 20 60",
+          "colorCMYKu": "90 0 10 25"
+        },
+        {
+          "name": "RAL 4008",
+          "description": "Сигнальный фиолетовый",
+          "colorRGB": "#904684",
+          "colorCMYKc": "60 90 0 10",
+          "colorCMYKu": "30 100 0 0"
+        },
+        {
+          "name": "RAL 4009",
+          "description": "Пастельно-фиолетовый",
+          "colorRGB": "#A38995",
+          "colorCMYKc": "40 40 30 0",
+          "colorCMYKu": "17 40 10 15"
+        },
+        {
+          "name": "RAL 4010",
+          "description": "Телемагента",
+          "colorRGB": "#C63678",
+          "colorCMYKc": "10 90 30 0",
+          "colorCMYKu": "0 100 0 0"
+        },
+        {
+          "name": "RAL 4011",
+          "description": "",
+          "colorRGB": "#8773A1",
+          "colorCMYKc": "47 57 3 7",
+          "colorCMYKu": "47 64 0 0"
+        },
+        {
+          "name": "RAL 4012",
+          "description": "",
+          "colorRGB": "#6B6880",
+          "colorCMYKc": "50 50 20 23",
+          "colorCMYKu": "54 57 3 26"
+        }
+      ]
+    },
+    {
+      "name": "Синие тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 5000",
+          "description": "Фиолетово-синий",
+          "colorRGB": "#384C70",
+          "colorCMYKc": "100 40 5 40",
+          "colorCMYKu": "100 70 10 25"
+        },
+        {
+          "name": "RAL 5001",
+          "description": "Зелёно-синий",
+          "colorRGB": "#1F4764",
+          "colorCMYKc": "90 20 0 80",
+          "colorCMYKu": "100 50 10 20"
+        },
+        {
+          "name": "RAL 5002",
+          "description": "Ультрамариново-синий",
+          "colorRGB": "#2B2C7C",
+          "colorCMYKc": "100 70 0 40",
+          "colorCMYKu": "100 90 0 0"
+        },
+        {
+          "name": "RAL 5003",
+          "description": "Сапфирово-синий",
+          "colorRGB": "#2A3756",
+          "colorCMYKc": "100 50 0 80",
+          "colorCMYKu": "90 0 10 25"
+        },
+        {
+          "name": "RAL 5004",
+          "description": "Чёрно-синий",
+          "colorRGB": "#1D1F2A",
+          "colorCMYKc": "100 100 70 40",
+          "colorCMYKu": "84 53 47 56"
+        },
+        {
+          "name": "RAL 5005",
+          "description": "Сигнальный синий",
+          "colorRGB": "#154889",
+          "colorCMYKc": "100 40 0 40",
+          "colorCMYKu": "90 60 0 0"
+        },
+        {
+          "name": "RAL 5007",
+          "description": "Бриллиантово-синий",
+          "colorRGB": "#41678D",
+          "colorCMYKc": "80 20 0 40",
+          "colorCMYKu": "100 40 0 20"
+        },
+        {
+          "name": "RAL 5008",
+          "description": "Серо-синий",
+          "colorRGB": "#313C48",
+          "colorCMYKc": "60 0 0 90",
+          "colorCMYKu": "100 50 10 60"
+        },
+        {
+          "name": "RAL 5009",
+          "description": "Лазурно-синий",
+          "colorRGB": "#2E5978",
+          "colorCMYKc": "90 30 10 40",
+          "colorCMYKu": "100 40 10 20"
+        },
+        {
+          "name": "RAL 5010",
+          "description": "Горечавково-синий",
+          "colorRGB": "#13447C",
+          "colorCMYKc": "100 40 5 40",
+          "colorCMYKu": "100 70 0 0"
+        },
+        {
+          "name": "RAL 5011",
+          "description": "Стально-синий",
+          "colorRGB": "#232C3F",
+          "colorCMYKc": "100 60 10 80",
+          "colorCMYKu": "96 46 10 40"
+        },
+        {
+          "name": "RAL 5012",
+          "description": "Голубой",
+          "colorRGB": "#3481B8",
+          "colorCMYKc": "90 30 10 10",
+          "colorCMYKu": "97 26 0 0"
+        },
+        {
+          "name": "RAL 5013",
+          "description": "Кобальтово-синий",
+          "colorRGB": "#232D53",
+          "colorCMYKc": "100 60 0 60",
+          "colorCMYKu": "90 0 10 25"
+        },
+        {
+          "name": "RAL 5014",
+          "description": "Голубино-синий",
+          "colorRGB": "#6C7C98",
+          "colorCMYKc": "50 20 0 40",
+          "colorCMYKu": "64 41 11 12"
+        },
+        {
+          "name": "RAL 5015",
+          "description": "Небесно-синий",
+          "colorRGB": "#2874B2",
+          "colorCMYKc": "100 30 0 10",
+          "colorCMYKu": "100 20 0 0"
+        },
+        {
+          "name": "RAL 5017",
+          "description": "Транспортный синий",
+          "colorRGB": "#0E518D",
+          "colorCMYKc": "100 20 5 40",
+          "colorCMYKu": "90 50 0 0"
+        },
+        {
+          "name": "RAL 5018",
+          "description": "Бирюзово-синий",
+          "colorRGB": "#21888F",
+          "colorCMYKc": "90 10 40 10",
+          "colorCMYKu": "93 7 33 3"
+        },
+        {
+          "name": "RAL 5019",
+          "description": "Капри синий",
+          "colorRGB": "#1A5784",
+          "colorCMYKc": "100 50 20 10",
+          "colorCMYKu": "100 30 0 20"
+        },
+        {
+          "name": "RAL 5020",
+          "description": "Океанская синь",
+          "colorRGB": "#0B4151",
+          "colorCMYKc": "100 0 40 80",
+          "colorCMYKu": "100 30 50 40"
+        },
+        {
+          "name": "RAL 5021",
+          "description": "Водная синь",
+          "colorRGB": "#07737A",
+          "colorCMYKc": "100 20 50 10",
+          "colorCMYKu": "100 0 30 15"
+        },
+        {
+          "name": "RAL 5022",
+          "description": "Ночной синий",
+          "colorRGB": "#2F2A5A",
+          "colorCMYKc": "100 100 40 40",
+          "colorCMYKu": "90 0 10 25"
+        },
+        {
+          "name": "RAL 5023",
+          "description": "Отдалённо-синий",
+          "colorRGB": "#4D668E",
+          "colorCMYKc": "80 40 10 20",
+          "colorCMYKu": "100 60 10 0"
+        },
+        {
+          "name": "RAL 5024",
+          "description": "Пастельно-синий",
+          "colorRGB": "#6A93B0",
+          "colorCMYKc": "70 20 10 20",
+          "colorCMYKu": "63 17 7 8"
+        },
+        {
+          "name": "RAL 5025",
+          "description": "",
+          "colorRGB": "#296478",
+          "colorCMYKc": "97 48 31 15",
+          "colorCMYKu": "100 30 20 20"
+        },
+        {
+          "name": "RAL 5026",
+          "description": "",
+          "colorRGB": "#102C54",
+          "colorCMYKc": "100 80 0 50",
+          "colorCMYKu": "90 0 10 25"
+        }
+      ]
+    },
+    {
+      "name": "Зелёные тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 6000",
+          "description": "Патиново-зелёный",
+          "colorRGB": "#327662",
+          "colorCMYKc": "80 20 60 20",
+          "colorCMYKu": "98 8 68 17"
+        },
+        {
+          "name": "RAL 6001",
+          "description": "Изумрудно-зелёный",
+          "colorRGB": "#28713E",
+          "colorCMYKc": "90 30 90 10",
+          "colorCMYKu": "100 0 100 15"
+        },
+        {
+          "name": "RAL 6002",
+          "description": "Лиственно-зелёный",
+          "colorRGB": "#276235",
+          "colorCMYKc": "90 40 90 10",
+          "colorCMYKu": "90 0 100 25"
+        },
+        {
+          "name": "RAL 6003",
+          "description": "Оливково-зелёный",
+          "colorRGB": "#4B573E",
+          "colorCMYKc": "80 50 80 20",
+          "colorCMYKu": "50 40 100 40"
+        },
+        {
+          "name": "RAL 6004",
+          "description": "Сине-зелёный",
+          "colorRGB": "#0E4243",
+          "colorCMYKc": "100 50 60 40",
+          "colorCMYKu": "100 30 50 40"
+        },
+        {
+          "name": "RAL 6005",
+          "description": "Зелёный мох",
+          "colorRGB": "#0F4336",
+          "colorCMYKc": "100 60 90 20",
+          "colorCMYKu": "100 20 90 30"
+        },
+        {
+          "name": "RAL 6006",
+          "description": "Серо-оливковый",
+          "colorRGB": "#40433B",
+          "colorCMYKc": "90 80 90 20",
+          "colorCMYKu": "80 70 100 60"
+        },
+        {
+          "name": "RAL 6007",
+          "description": "Бутылочно-зелёный",
+          "colorRGB": "#283424",
+          "colorCMYKc": "80 50 80 60",
+          "colorCMYKu": "80 60 100 60"
+        },
+        {
+          "name": "RAL 6008",
+          "description": "Коричнево-зелёный",
+          "colorRGB": "#35382E",
+          "colorCMYKc": "70 50 70 80",
+          "colorCMYKu": "100 100 100 75"
+        },
+        {
+          "name": "RAL 6009",
+          "description": "Пихтовый зелёный",
+          "colorRGB": "#26392F",
+          "colorCMYKc": "90 50 90 60",
+          "colorCMYKu": "100 60 80 60"
+        },
+        {
+          "name": "RAL 6010",
+          "description": "Травяной зелёный",
+          "colorRGB": "#3E753B",
+          "colorCMYKc": "70 10 80 40",
+          "colorCMYKu": "70 0 100 25"
+        },
+        {
+          "name": "RAL 6011",
+          "description": "Резедово-зелёный",
+          "colorRGB": "#66825B",
+          "colorCMYKc": "70 30 70 5",
+          "colorCMYKu": "50 13 70 20"
+        },
+        {
+          "name": "RAL 6012",
+          "description": "Чёрно-зелёный",
+          "colorRGB": "#31403D",
+          "colorCMYKc": "100 80 100 20",
+          "colorCMYKu": "100 50 80 60"
+        },
+        {
+          "name": "RAL 6013",
+          "description": "Тростниково-зелёный",
+          "colorRGB": "#797C5A",
+          "colorCMYKc": "40 20 60 40",
+          "colorCMYKu": "40 40 70 10"
+        },
+        {
+          "name": "RAL 6014",
+          "description": "Жёлто-оливковый",
+          "colorRGB": "#444337",
+          "colorCMYKc": "80 50 90 60",
+          "colorCMYKu": "50 70 100 50"
+        },
+        {
+          "name": "RAL 6015",
+          "description": "Чёрно-оливковый",
+          "colorRGB": "#3D403A",
+          "colorCMYKc": "80 60 70 40",
+          "colorCMYKu": "100 100 100 75"
+        },
+        {
+          "name": "RAL 6016",
+          "description": "Бирюзово-зелёный",
+          "colorRGB": "#026A52",
+          "colorCMYKc": "100 30 80 0",
+          "colorCMYKu": "100 0 70 15"
+        },
+        {
+          "name": "RAL 6017",
+          "description": "Майский зелёный",
+          "colorRGB": "#468641",
+          "colorCMYKc": "80 20 100 10",
+          "colorCMYKu": "77 0 97 0"
+        },
+        {
+          "name": "RAL 6018",
+          "description": "Желто-зелёный",
+          "colorRGB": "#48A43F",
+          "colorCMYKc": "70 0 90 0",
+          "colorCMYKu": "60 0 100 0"
+        },
+        {
+          "name": "RAL 6019",
+          "description": "Бело-зелёный",
+          "colorRGB": "#B7D9B1",
+          "colorCMYKc": "35 0 40 0",
+          "colorCMYKu": "30 0 30 0"
+        },
+        {
+          "name": "RAL 6020",
+          "description": "Хромовый зелёный",
+          "colorRGB": "#354733",
+          "colorCMYKc": "90 60 80 20",
+          "colorCMYKu": "80 40 100 50"
+        },
+        {
+          "name": "RAL 6021",
+          "description": "Бледно-зелёный",
+          "colorRGB": "#86A47C",
+          "colorCMYKc": "50 10 50 10",
+          "colorCMYKu": "43 13 50 7"
+        },
+        {
+          "name": "RAL 6022",
+          "description": "Коричнево-оливковый",
+          "colorRGB": "#3E3C32",
+          "colorCMYKc": "90 80 100 20",
+          "colorCMYKu": "70 100 90 75"
+        },
+        {
+          "name": "RAL 6024",
+          "description": "Транспортный зелёный",
+          "colorRGB": "#008754",
+          "colorCMYKc": "90 10 80 10",
+          "colorCMYKu": "90 100 70 0"
+        },
+        {
+          "name": "RAL 6025",
+          "description": "Папоротниково-зелёный",
+          "colorRGB": "#53753C",
+          "colorCMYKc": "80 30 90 10",
+          "colorCMYKu": "50 10 100 25"
+        },
+        {
+          "name": "RAL 6026",
+          "description": "Опаловый зелёный",
+          "colorRGB": "#005D52",
+          "colorCMYKc": "100 30 70 40",
+          "colorCMYKu": "100 0 70 15"
+        },
+        {
+          "name": "RAL 6027",
+          "description": "Светло-зелёный",
+          "colorRGB": "#81C0BB",
+          "colorCMYKc": "60 0 30 0",
+          "colorCMYKu": "50 0 20 0"
+        },
+        {
+          "name": "RAL 6028",
+          "description": "Сосновый зелёный",
+          "colorRGB": "#2D5546",
+          "colorCMYKc": "100 60 100 0",
+          "colorCMYKu": "100 30 100 40"
+        },
+        {
+          "name": "RAL 6029",
+          "description": "Мятно-зелёный",
+          "colorRGB": "#007243",
+          "colorCMYKc": "100 20 100 5",
+          "colorCMYKu": "100 0 100 0"
+        },
+        {
+          "name": "RAL 6032",
+          "description": "Сигнальный зелёный",
+          "colorRGB": "#0F8558",
+          "colorCMYKc": "90 10 80 0",
+          "colorCMYKu": "90 0 70 0"
+        },
+        {
+          "name": "RAL 6033",
+          "description": "Мятно-бирюзовый",
+          "colorRGB": "#478A84",
+          "colorCMYKc": "80 20 50 0",
+          "colorCMYKu": "90 0 40 17"
+        },
+        {
+          "name": "RAL 6034",
+          "description": "Пастельно-бирюзовый",
+          "colorRGB": "#7FB0B2",
+          "colorCMYKc": "60 10 40 0",
+          "colorCMYKu": "50 0 20 10"
+        },
+        {
+          "name": "RAL 6035",
+          "description": "",
+          "colorRGB": "#1B542C",
+          "colorCMYKc": "90 0 100 75",
+          "colorCMYKu": "90 10 100 30"
+        },
+        {
+          "name": "RAL 6036",
+          "description": "",
+          "colorRGB": "#005D4C",
+          "colorCMYKc": "100 10 60 50",
+          "colorCMYKu": "100 10 60 30"
+        },
+        {
+          "name": "RAL 6037",
+          "description": "Зелёный",
+          "colorRGB": "#008F39",
+          "colorCMYKc": "90 0 100 0",
+          "colorCMYKu": "90 0 100 0"
+        },
+        {
+          "name": "RAL 6038",
+          "description": "",
+          "colorRGB": "#00BB2E",
+          "colorCMYKc": "100 0 100 0",
+          "colorCMYKu": "100 0 100 0"
+        }
+      ]
+    },
+    {
+      "name": "Серые тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 7000",
+          "description": "Серая белка",
+          "colorRGB": "#7E8B92",
+          "colorCMYKc": "40 10 10 40",
+          "colorCMYKu": "33 6 6 36"
+        },
+        {
+          "name": "RAL 7001",
+          "description": "Серебристо-серый",
+          "colorRGB": "#8F999F",
+          "colorCMYKc": "10 0 0 40",
+          "colorCMYKu": "20 7 7 30"
+        },
+        {
+          "name": "RAL 7002",
+          "description": "Оливково-серый",
+          "colorRGB": "#817F68",
+          "colorCMYKc": "30 30 50 40",
+          "colorCMYKu": "37 37 57 15"
+        },
+        {
+          "name": "RAL 7003",
+          "description": "Серый мох",
+          "colorRGB": "#7A7B6D",
+          "colorCMYKc": "30 20 40 40",
+          "colorCMYKu": "27 20 40 40"
+        },
+        {
+          "name": "RAL 7004",
+          "description": "Сигнальный серый",
+          "colorRGB": "#9EA0A1",
+          "colorCMYKc": "0 0 0 45",
+          "colorCMYKu": "7 4 4 33"
+        },
+        {
+          "name": "RAL 7005",
+          "description": "Мышино-серый",
+          "colorRGB": "#6B716F",
+          "colorCMYKc": "30 10 20 60",
+          "colorCMYKu": "48 42 39 20"
+        },
+        {
+          "name": "RAL 7006",
+          "description": "Бежево-серый",
+          "colorRGB": "#756F61",
+          "colorCMYKc": "0 10 30 60",
+          "colorCMYKu": "29 43 56 35"
+        },
+        {
+          "name": "RAL 7008",
+          "description": "Серое хаки",
+          "colorRGB": "#746643",
+          "colorCMYKc": "30 40 70 40",
+          "colorCMYKu": "10 30 90 40"
+        },
+        {
+          "name": "RAL 7009",
+          "description": "Зелёно-серый",
+          "colorRGB": "#5B6259",
+          "colorCMYKc": "20 50 40 80",
+          "colorCMYKu": "60 50 70 32"
+        },
+        {
+          "name": "RAL 7010",
+          "description": "Брезентово-серый",
+          "colorRGB": "#575D57",
+          "colorCMYKc": "20 5 30 80",
+          "colorCMYKu": "60 47 50 43"
+        },
+        {
+          "name": "RAL 7011",
+          "description": "Железно-серый",
+          "colorRGB": "#555D61",
+          "colorCMYKc": "40 10 20 80",
+          "colorCMYKu": "60 40 30 30"
+        },
+        {
+          "name": "RAL 7012",
+          "description": "Базальтово-серый",
+          "colorRGB": "#596163",
+          "colorCMYKc": "20 0 10 80",
+          "colorCMYKu": "50 20 20 40"
+        },
+        {
+          "name": "RAL 7013",
+          "description": "Коричнево-серый",
+          "colorRGB": "#555548",
+          "colorCMYKc": "10 10 40 80",
+          "colorCMYKu": "50 60 100 50"
+        },
+        {
+          "name": "RAL 7015",
+          "description": "Сланцево-серый",
+          "colorRGB": "#51565C",
+          "colorCMYKc": "40 10 10 80",
+          "colorCMYKu": "80 65 33 45"
+        },
+        {
+          "name": "RAL 7016",
+          "description": "Антрацитово-серый",
+          "colorRGB": "#373F43",
+          "colorCMYKc": "60 30 30 80",
+          "colorCMYKu": "100 50 30 60"
+        },
+        {
+          "name": "RAL 7021",
+          "description": "Чёрно-серый",
+          "colorRGB": "#2E3234",
+          "colorCMYKc": "50 10 5 95",
+          "colorCMYKu": "100 90 70 50"
+        },
+        {
+          "name": "RAL 7022",
+          "description": "Серая умбра",
+          "colorRGB": "#4B4D46",
+          "colorCMYKc": "30 20 40 80",
+          "colorCMYKu": "80 80 100 75"
+        },
+        {
+          "name": "RAL 7023",
+          "description": "Серый бетон",
+          "colorRGB": "#818479",
+          "colorCMYKc": "40 20 40 40",
+          "colorCMYKu": "50 40 40 0"
+        },
+        {
+          "name": "RAL 7024",
+          "description": "Графитовый серый",
+          "colorRGB": "#474A50",
+          "colorCMYKc": "80 60 50 40",
+          "colorCMYKu": "90 60 30 60"
+        },
+        {
+          "name": "RAL 7026",
+          "description": "Гранитовый серый",
+          "colorRGB": "#374447",
+          "colorCMYKc": "60 20 30 80",
+          "colorCMYKu": "100 40 50 60"
+        },
+        {
+          "name": "RAL 7030",
+          "description": "Каменно-серый",
+          "colorRGB": "#939388",
+          "colorCMYKc": "20 10 20 40",
+          "colorCMYKu": "0 0 10 40"
+        },
+        {
+          "name": "RAL 7031",
+          "description": "Сине-серый",
+          "colorRGB": "#5D6970",
+          "colorCMYKc": "60 30 30 40",
+          "colorCMYKu": "68 52 41 18"
+        },
+        {
+          "name": "RAL 7032",
+          "description": "Галечный серый",
+          "colorRGB": "#B9B9A8",
+          "colorCMYKc": "0 0 20 40",
+          "colorCMYKu": "0 0 10 25"
+        },
+        {
+          "name": "RAL 7033",
+          "description": "Цементно-серый",
+          "colorRGB": "#818979",
+          "colorCMYKc": "30 10 30 40",
+          "colorCMYKu": "37 13 37 30"
+        },
+        {
+          "name": "RAL 7034",
+          "description": "Жёлто-серый",
+          "colorRGB": "#939176",
+          "colorCMYKc": "5 5 40 40",
+          "colorCMYKu": "0 0 30 40"
+        },
+        {
+          "name": "RAL 7035",
+          "description": "Светло-серый",
+          "colorRGB": "#CBD0CC",
+          "colorCMYKc": "5 0 5 20",
+          "colorCMYKu": "20 14 14 0"
+        },
+        {
+          "name": "RAL 7036",
+          "description": "Платиново-серый",
+          "colorRGB": "#9A9697",
+          "colorCMYKc": "10 10 10 40",
+          "colorCMYKu": "30 30 20 10"
+        },
+        {
+          "name": "RAL 7037",
+          "description": "Пыльно-серый",
+          "colorRGB": "#7C7F7E",
+          "colorCMYKc": "30 20 20 40",
+          "colorCMYKu": "11 8 8 46"
+        },
+        {
+          "name": "RAL 7038",
+          "description": "Агатовый серый",
+          "colorRGB": "#B4B8B0",
+          "colorCMYKc": "30 10 20 20",
+          "colorCMYKu": "30 22 22 0"
+        },
+        {
+          "name": "RAL 7039",
+          "description": "Кварцевый серый",
+          "colorRGB": "#6B695F",
+          "colorCMYKc": "50 40 50 40",
+          "colorCMYKu": "60 60 60 0"
+        },
+        {
+          "name": "RAL 7040",
+          "description": "Серое окно",
+          "colorRGB": "#9DA3A6",
+          "colorCMYKc": "20 5 10 40",
+          "colorCMYKu": "30 20 10 10"
+        },
+        {
+          "name": "RAL 7042",
+          "description": "Транспортный серый A",
+          "colorRGB": "#8F9695",
+          "colorCMYKc": "30 10 20 40",
+          "colorCMYKu": "17 9 9 33"
+        },
+        {
+          "name": "RAL 7043",
+          "description": "Транспортный серый B",
+          "colorRGB": "#4E5451",
+          "colorCMYKc": "30 10 20 80",
+          "colorCMYKu": "87 81 74 29"
+        },
+        {
+          "name": "RAL 7044",
+          "description": "Серый шёлк",
+          "colorRGB": "#BDBDB2",
+          "colorCMYKc": "0 0 15 30",
+          "colorCMYKu": "10 10 10 10"
+        },
+        {
+          "name": "RAL 7045",
+          "description": "Телегрей 1",
+          "colorRGB": "#91969A",
+          "colorCMYKc": "20 10 10 40",
+          "colorCMYKu": "10 0 0 40"
+        },
+        {
+          "name": "RAL 7046",
+          "description": "Телегрей 2",
+          "colorRGB": "#82898E",
+          "colorCMYKc": "30 10 10 40",
+          "colorCMYKu": "31 18 14 25"
+        },
+        {
+          "name": "RAL 7047",
+          "description": "Телегрей 4",
+          "colorRGB": "#CFD0CF",
+          "colorCMYKc": "0 0 5 20",
+          "colorCMYKu": "0 0 0 12"
+        },
+        {
+          "name": "RAL 7048",
+          "description": "",
+          "colorRGB": "#888175",
+          "colorCMYKc": "32 32 39 27",
+          "colorCMYKu": "18 18 31 34"
+        }
+      ]
+    },
+    {
+      "name": "Коричневые тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 8000",
+          "description": "Зелёно-коричневый",
+          "colorRGB": "#887142",
+          "colorCMYKc": "50 50 80 10",
+          "colorCMYKu": "20 40 90 25"
+        },
+        {
+          "name": "RAL 8001",
+          "description": "Охра коричневая",
+          "colorRGB": "#9C6B30",
+          "colorCMYKc": "40 60 90 10",
+          "colorCMYKu": "10 50 100 10"
+        },
+        {
+          "name": "RAL 8002",
+          "description": "Сигнальный коричневый",
+          "colorRGB": "#7B5141",
+          "colorCMYKc": "60 80 80 10",
+          "colorCMYKu": "20 80 100 30"
+        },
+        {
+          "name": "RAL 8003",
+          "description": "Глиняный коричневый",
+          "colorRGB": "#80542F",
+          "colorCMYKc": "50 70 80 10",
+          "colorCMYKu": "0 60 100 40"
+        },
+        {
+          "name": "RAL 8004",
+          "description": "Медно-коричневый",
+          "colorRGB": "#8F4E35",
+          "colorCMYKc": "40 80 80 10",
+          "colorCMYKu": "0 70 100 25"
+        },
+        {
+          "name": "RAL 8007",
+          "description": "Олень коричневый",
+          "colorRGB": "#6F4A2F",
+          "colorCMYKc": "60 70 80 20",
+          "colorCMYKu": "0 70 100 40"
+        },
+        {
+          "name": "RAL 8008",
+          "description": "Оливково-коричневый",
+          "colorRGB": "#6F4F28",
+          "colorCMYKc": "50 60 70 20",
+          "colorCMYKu": "30 60 100 10"
+        },
+        {
+          "name": "RAL 8011",
+          "description": "Орехово-коричневый",
+          "colorRGB": "#5A3A29",
+          "colorCMYKc": "10 60 100 80",
+          "colorCMYKu": "10 90 100 50"
+        },
+        {
+          "name": "RAL 8012",
+          "description": "Красно-коричневый",
+          "colorRGB": "#673831",
+          "colorCMYKc": "5 100 100 80",
+          "colorCMYKu": "0 100 100 50"
+        },
+        {
+          "name": "RAL 8014",
+          "description": "Сепия коричневый",
+          "colorRGB": "#49392D",
+          "colorCMYKc": "30 60 100 80",
+          "colorCMYKu": "40 70 100 50"
+        },
+        {
+          "name": "RAL 8015",
+          "description": "Каштаново-коричневый",
+          "colorRGB": "#633A34",
+          "colorCMYKc": "0 90 100 80",
+          "colorCMYKu": "10 100 100 50"
+        },
+        {
+          "name": "RAL 8016",
+          "description": "Махагон коричневый",
+          "colorRGB": "#4C2F26",
+          "colorCMYKc": "40 80 80 80",
+          "colorCMYKu": "30 90 90 50"
+        },
+        {
+          "name": "RAL 8017",
+          "description": "Шоколадно-коричневый",
+          "colorRGB": "#44322D",
+          "colorCMYKc": "60 80 80 80",
+          "colorCMYKu": "50 100 90 60"
+        },
+        {
+          "name": "RAL 8019",
+          "description": "Серо-коричневый",
+          "colorRGB": "#3F3A3A",
+          "colorCMYKc": "90 90 80 80",
+          "colorCMYKu": "70 100 90 75"
+        },
+        {
+          "name": "RAL 8022",
+          "description": "Чёрно-коричневый",
+          "colorRGB": "#211F20",
+          "colorCMYKc": "100 100 80 95",
+          "colorCMYKu": "70 100 90 75"
+        },
+        {
+          "name": "RAL 8023",
+          "description": "Оранжево-коричневый",
+          "colorRGB": "#A65E2F",
+          "colorCMYKc": "20 70 100 20",
+          "colorCMYKu": "0 70 100 10"
+        },
+        {
+          "name": "RAL 8024",
+          "description": "Бежево-коричневый",
+          "colorRGB": "#79553C",
+          "colorCMYKc": "30 60 70 40",
+          "colorCMYKu": "0 60 100 40"
+        },
+        {
+          "name": "RAL 8025",
+          "description": "Бледно-коричневый",
+          "colorRGB": "#755C49",
+          "colorCMYKc": "40 50 60 40",
+          "colorCMYKu": "7 60 93 43"
+        },
+        {
+          "name": "RAL 8028",
+          "description": "Терракотовый",
+          "colorRGB": "#4E3B2B",
+          "colorCMYKc": "20 50 70 80",
+          "colorCMYKu": "40 80 100 50"
+        },
+        {
+          "name": "RAL 8029",
+          "description": "Перламутровый медный",
+          "colorRGB": "#773C27",
+          "colorCMYKc": "23 80 93 43",
+          "colorCMYKu": "0 80 100 40"
+        }
+      ]
+    },
+    {
+      "name": "Чёрные и белые тона",
+      "layout": "Narrow",
+      "chips": [
+        {
+          "name": "RAL 9001",
+          "description": "Кремово-белый",
+          "colorRGB": "#EFEBDC",
+          "colorCMYKc": "0 0 10 5",
+          "colorCMYKu": "0 0 10 0"
+        },
+        {
+          "name": "RAL 9002",
+          "description": "Светло-серый",
+          "colorRGB": "#DDDED4",
+          "colorCMYKc": "5 0 10 10",
+          "colorCMYKu": "3 3 10 7"
+        },
+        {
+          "name": "RAL 9003",
+          "description": "Сигнальный белый",
+          "colorRGB": "#F4F8F4",
+          "colorCMYKc": "0 0 0 0",
+          "colorCMYKu": "0 0 0 0"
+        },
+        {
+          "name": "RAL 9004",
+          "description": "Сигнальный чёрный",
+          "colorRGB": "#2E3032",
+          "colorCMYKc": "100 90 100 80",
+          "colorCMYKu": "100 100 100 75"
+        },
+        {
+          "name": "RAL 9005",
+          "description": "Чёрный янтарь",
+          "colorRGB": "#0A0A0D",
+          "colorCMYKc": "100 100 100 95",
+          "colorCMYKu": "87 65 66 58"
+        },
+        {
+          "name": "RAL 9006",
+          "description": "",
+          "colorRGB": "#A5A8A6",
+          "colorCMYKc": "0 0 0 40",
+          "colorCMYKu": "0 0 0 20"
+        },
+        {
+          "name": "RAL 9007",
+          "description": "",
+          "colorRGB": "#8F8F8C",
+          "colorCMYKc": "0 0 0 60",
+          "colorCMYKu": "17 14 17 29"
+        },
+        {
+          "name": "RAL 9010",
+          "description": "Белый",
+          "colorRGB": "#F7F9EF",
+          "colorCMYKc": "0 0 5 0",
+          "colorCMYKu": "0 0 7 0"
+        },
+        {
+          "name": "RAL 9011",
+          "description": "Графитно-чёрный",
+          "colorRGB": "#292C2F",
+          "colorCMYKc": "100 100 100 80",
+          "colorCMYKu": "90 100 97 75"
+        },
+        {
+          "name": "RAL 9016",
+          "description": "Транспортный белый",
+          "colorRGB": "#F7FBF5",
+          "colorCMYKc": "3 0 0 0",
+          "colorCMYKu": "0 0 0 0"
+        },
+        {
+          "name": "RAL 9017",
+          "description": "Транспортный чёрный",
+          "colorRGB": "#2A2D2F",
+          "colorCMYKc": "100 90 100 95",
+          "colorCMYKu": "87 66 66 58"
+        },
+        {
+          "name": "RAL 9018",
+          "description": "Папирусно-белый",
+          "colorRGB": "#CFD3CD",
+          "colorCMYKc": "10 0 10 20",
+          "colorCMYKu": "7 4 10 6"
+        },
+        {
+          "name": "RAL 9022",
+          "description": "",
+          "colorRGB": "#9C9C9C",
+          "colorCMYKc": "21 14 14 31",
+          "colorCMYKu": "10 7 7 28"
+        },
+        {
+          "name": "RAL 9023",
+          "description": "",
+          "colorRGB": "#7E8182",
+          "colorCMYKc": "8 6 6 57",
+          "colorCMYKu": "20 10 10 40"
         }
       ]
     }
