@@ -26,17 +26,17 @@ public class PaletteParser {
     static final String urlDesign = "https://colorscheme.ru/ral-colors/ral-design.html";
 
     public static void main(String[] args) throws IOException {
-        Palette palette = parseRal();
+        Palette palette = parseRalDesign();
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .registerTypeAdapter(Color.class, new JsonConverter.ChipLayoutSerializer())
                 .create();
-        OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("ral-classic.json"), StandardCharsets.UTF_8);
+        OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("ral-design.json"), StandardCharsets.UTF_8);
         gson.toJson(palette, writer);
         writer.close();
     }
 
-    private static Palette parseRal() throws IOException {
+    private static Palette parseRalClassic() throws IOException {
         Document doc = Jsoup.connect(urlClassic).get();
         Elements els = doc.select("table.color-table > tbody > tr");
         Iterator<Element> iter = els.iterator();
@@ -66,6 +66,28 @@ public class PaletteParser {
         }
         groups.add(group);
         return new Palette("RAL Classic", groups);
+    }
+
+    private static Palette parseRalDesign() throws IOException {
+        Document doc = Jsoup.connect(urlDesign).get();
+        Elements els = doc.select("table.color-table > tbody > tr");
+        Iterator<Element> iter = els.iterator();
+        Element elm = iter.next();
+        List<ColorGroup> groups = new ArrayList<>();
+        ColorGroup group = new ColorGroup();
+        group.layout = ColorGroup.ChipLayout.Wide;
+        group.chips = new ArrayList<>();
+        while (iter.hasNext()) {
+            elm = iter.next();
+                ColorChip chip = new ColorChip();
+                chip.name = elm.child(1).text();
+                chip.colorCMYKc = elm.child(2).text();
+                chip.colorCMYKu = elm.child(3).text();
+                chip.colorRGB = elm.child(4).text();
+                group.chips.add(chip);
+        }
+        groups.add(group);
+        return new Palette("RAL Design", groups);
     }
 
 }
