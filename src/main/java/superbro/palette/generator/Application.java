@@ -16,7 +16,7 @@ public class Application {
         Palette palette = readFrom("ral-design.json");
         PDDocument document = DocumentBuilder.build(palette);
         // TODO gui dialogs
-        document.save(palette.getName()+".pdf");
+        document.save(palette.getName() + ".pdf");
         document.close();
     }
 

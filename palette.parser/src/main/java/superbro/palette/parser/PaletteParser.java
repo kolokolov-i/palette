@@ -79,12 +79,12 @@ public class PaletteParser {
         group.chips = new ArrayList<>();
         while (iter.hasNext()) {
             elm = iter.next();
-                ColorChip chip = new ColorChip();
-                chip.name = elm.child(1).text();
-                chip.colorCMYKc = elm.child(2).text();
-                chip.colorCMYKu = elm.child(3).text();
-                chip.colorRGB = elm.child(4).text();
-                group.chips.add(chip);
+            ColorChip chip = new ColorChip();
+            chip.name = elm.child(1).text();
+            chip.colorCMYKc = elm.child(2).text();
+            chip.colorCMYKu = elm.child(3).text();
+            chip.colorRGB = elm.child(4).text();
+            group.chips.add(chip);
         }
         groups.add(group);
         return new Palette("RAL Design", groups);

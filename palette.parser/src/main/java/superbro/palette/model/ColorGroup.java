@@ -8,11 +8,20 @@ public class ColorGroup {
     public List<ColorChip> chips;
 
     public enum ChipLayout {
-        Narrow(66, 6, 30, 23, 25, 15),
-        Wide(56, 4, 45, 18, 40, 10);
+        Narrow(25, 25),
+        Wide(40, 12);
 
         public final int pageCapacity, rowCapacity;
         public final float gridW, gridH, chipW, chipH;
+
+        ChipLayout(float chipW, float chipH) {
+            this.chipW = chipW;
+            this.chipH = chipH;
+            this.gridW = chipW + 5;
+            this.gridH = chipH + 8;
+            this.rowCapacity = (int) Math.floor(180 / gridW);
+            this.pageCapacity = (int) Math.floor(267 / gridH) * rowCapacity;
+        }
 
         ChipLayout(int pageCapacity, int rowCapacity, float gridW, float gridH, float chipW, float chipH) {
             this.pageCapacity = pageCapacity;

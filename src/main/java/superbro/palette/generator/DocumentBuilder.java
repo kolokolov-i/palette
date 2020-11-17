@@ -95,10 +95,15 @@ class DocumentBuilder {
                     pageData.title = group.name;
                     pageData.number = groupNumber + "G" + pageNumber;
                 } else {
-                    pageData.title = String.format("%s ( %d / %d )", group.name, pageNumber, totalPages);
+                    if(group.name != null && !group.name.isEmpty()){
+                        pageData.title = String.format("%s ( %d / %d )", group.name, pageNumber, totalPages);
+                    }
+                    else{
+                        pageData.title = String.format("%d / %d", pageNumber, totalPages);
+                    }
                     pageData.number = groupNumber + "G" + pageNumber;
                 }
-                int lastChipIndex = i + pageCapacity - 1;
+                int lastChipIndex = i + pageCapacity;
                 lastChipIndex = Math.min(lastChipIndex, chips.size());
                 pageData.chips = chips.subList(i, lastChipIndex);
                 result.add(pageData);
