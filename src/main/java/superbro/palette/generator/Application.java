@@ -13,7 +13,8 @@ import java.nio.charset.StandardCharsets;
 public class Application {
 
     public static void main(String[] args) throws IOException {
-        Palette palette = readFrom("ral-design.json");
+//        Palette palette = readFrom("ral-design.json");
+        Palette palette = readFrom("ral-classic.json");
         PDDocument document = DocumentBuilder.build(palette);
         // TODO gui dialogs
         document.save(palette.getName() + ".pdf");
