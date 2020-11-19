@@ -154,7 +154,8 @@
         },
         {
           "name": "RAL 1026",
-          "description": "",
+          "description": "Люминесцентный жёлтый",
+          "extra": "Флуоресцентный (Fluorescent)",
           "colorRGB": "#F5FF00",
           "colorCMYKc": "0 0 100 0",
           "colorCMYKu": "0 0 100 0"
@@ -196,14 +197,16 @@
         },
         {
           "name": "RAL 1035",
-          "description": "",
+          "description": "Перламутрово-бежевый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#A29985",
           "colorCMYKc": "16 19 33 26",
           "colorCMYKu": "20 20 33 12"
         },
         {
           "name": "RAL 1036",
-          "description": "",
+          "description": "Перламутрово-золотой",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#927549",
           "colorCMYKc": "33 46 80 18",
           "colorCMYKu": "9 36 97 28"
@@ -258,14 +261,16 @@
         },
         {
           "name": "RAL 2005",
-          "description": "",
+          "description": "Люминесцентный оранжевый",
+          "extra": "Флуоресцентный (Fluorescent)",
           "colorRGB": "#FF2300",
           "colorCMYKc": "0 75 75 5",
           "colorCMYKu": "0 50 100 0"
         },
         {
           "name": "RAL 2007",
-          "description": "",
+          "description": "Люминесцентный ярко-оранжевый",
+          "extra": "Флуоресцентный (Fluorescent)",
           "colorRGB": "#FFA421",
           "colorCMYKc": "0 50 100 0",
           "colorCMYKu": "0 20 90 0"
@@ -307,7 +312,8 @@
         },
         {
           "name": "RAL 2013",
-          "description": "",
+          "description": "Перламутрово-оранжевый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#954527",
           "colorCMYKc": "0 80 100 40",
           "colorCMYKu": "10 80 100 10"
@@ -446,14 +452,16 @@
         },
         {
           "name": "RAL 3024",
-          "description": "",
+          "description": "Люминесцентный красный",
+          "extra": "Флуоресцентный (Fluorescent)",
           "colorRGB": "#F70000",
           "colorCMYKc": "0 80 90 0",
           "colorCMYKu": "0 70 100 0"
         },
         {
           "name": "RAL 3026",
-          "description": "",
+          "description": "Люминесцентный ярко-красный",
+          "extra": "Флуоресцентный (Fluorescent)",
           "colorRGB": "#FF0000",
           "colorCMYKc": "0 80 100 0",
           "colorCMYKu": "0 70 100 0"
@@ -481,14 +489,16 @@
         },
         {
           "name": "RAL 3032",
-          "description": "",
+          "description": "Перламутрово-рубиновый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#711521",
           "colorCMYKc": "10 100 90 50",
           "colorCMYKu": "10 100 100 30"
         },
         {
           "name": "RAL 3033",
-          "description": "",
+          "description": "Перламутрово-розовый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#B24C43",
           "colorCMYKc": "8 84 72 13",
           "colorCMYKu": "0 93 93 7"
@@ -571,14 +581,16 @@
         },
         {
           "name": "RAL 4011",
-          "description": "",
+          "description": "Перламутрово-фиолетовый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#8773A1",
           "colorCMYKc": "47 57 3 7",
           "colorCMYKu": "47 64 0 0"
         },
         {
           "name": "RAL 4012",
-          "description": "",
+          "description": "Перламутрово-ежевичный",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#6B6880",
           "colorCMYKc": "50 50 20 23",
           "colorCMYKu": "54 57 3 26"
@@ -752,14 +764,16 @@
         },
         {
           "name": "RAL 5025",
-          "description": "",
+          "description": "Перламутровый горечавково-синий",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#296478",
           "colorCMYKc": "97 48 31 15",
           "colorCMYKu": "100 30 20 20"
         },
         {
           "name": "RAL 5026",
-          "description": "",
+          "description": "Перламутровый ночной синий",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#102C54",
           "colorCMYKc": "100 80 0 50",
           "colorCMYKu": "90 0 10 25"
@@ -996,14 +1010,16 @@
         },
         {
           "name": "RAL 6035",
-          "description": "",
+          "description": "Перламутрово-зелёный",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#1B542C",
           "colorCMYKc": "90 0 100 75",
           "colorCMYKu": "90 10 100 30"
         },
         {
           "name": "RAL 6036",
-          "description": "",
+          "description": "Перламутровый опаловый зелёный",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#005D4C",
           "colorCMYKc": "100 10 60 50",
           "colorCMYKu": "100 10 60 30"
@@ -1017,7 +1033,8 @@
         },
         {
           "name": "RAL 6038",
-          "description": "",
+          "description": "Люминесцентный зелёный",
+          "extra": "Флуоресцентный (Fluorescent)",
           "colorRGB": "#00BB2E",
           "colorCMYKc": "100 0 100 0",
           "colorCMYKu": "100 0 100 0"
@@ -1289,7 +1306,8 @@
         },
         {
           "name": "RAL 7048",
-          "description": "",
+          "description": "Перламутровый мышино-серый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#888175",
           "colorCMYKc": "32 32 39 27",
           "colorCMYKu": "18 18 31 34"
@@ -1483,14 +1501,16 @@
         },
         {
           "name": "RAL 9006",
-          "description": "",
+          "description": "Бело-алюминиевый",
+          "extra": "Железный блеск (Iron Glimmer)",
           "colorRGB": "#A5A8A6",
           "colorCMYKc": "0 0 0 40",
           "colorCMYKu": "0 0 0 20"
         },
         {
           "name": "RAL 9007",
-          "description": "",
+          "description": "Тёмно-алюминиевый",
+          "extra": "Железный блеск (Iron Glimmer)",
           "colorRGB": "#8F8F8C",
           "colorCMYKc": "0 0 0 60",
           "colorCMYKu": "17 14 17 29"
@@ -1532,14 +1552,16 @@
         },
         {
           "name": "RAL 9022",
-          "description": "",
+          "description": "Перламутровый светло-серый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#9C9C9C",
           "colorCMYKc": "21 14 14 31",
           "colorCMYKu": "10 7 7 28"
         },
         {
           "name": "RAL 9023",
-          "description": "",
+          "description": "Перламутровый тёмно-серый",
+          "extra": "Жемчужный Глянец (Pearl Gloss)",
           "colorRGB": "#7E8182",
           "colorCMYKc": "8 6 6 57",
           "colorCMYKu": "20 10 10 40"
