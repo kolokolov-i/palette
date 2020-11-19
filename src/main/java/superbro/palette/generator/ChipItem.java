@@ -25,10 +25,12 @@ public class ChipItem extends IndexItem {
         content.newLineAtOffset(RenderUtil.col1Text.x, curY + toPix(1));
         content.showText(chip.name);
         content.endText();
-        content.beginText();
-        content.newLineAtOffset(RenderUtil.col2Text.x, curY + toPix(1));
-        content.showText(chip.description);
-        content.endText();
+        if(chip.description != null){
+            content.beginText();
+            content.newLineAtOffset(RenderUtil.col2Text.x, curY + toPix(1));
+            content.showText(chip.description);
+            content.endText();
+        }
         content.beginText();
         content.newLineAtOffset(RenderUtil.col3Text.x, curY + toPix(1));
         content.showText(chip.colorCMYKc.trim());
