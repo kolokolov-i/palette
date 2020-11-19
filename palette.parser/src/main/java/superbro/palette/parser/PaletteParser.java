@@ -12,6 +12,7 @@ import superbro.palette.model.Palette;
 import superbro.palette.util.JsonConverter;
 
 import java.awt.*;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -22,22 +23,45 @@ import java.util.List;
 
 public class PaletteParser {
 
-    static final String urlClassic = "https://colorscheme.ru/ral-colors/ral-classic.html";
-    static final String urlDesign = "https://colorscheme.ru/ral-colors/ral-design.html";
+    enum Variant {
+        Classic("https://colorscheme.ru/ral-colors/ral-classic.html", "save/RAL_CLASSIC.html", "ral-classic.json"),
+        Design("https://colorscheme.ru/ral-colors/ral-design.html", "save/RAL_DESIGN.html", "ral-design.json");
+
+        String url, inFile,  outFile;
+
+        Variant(String url, String inFile, String outFile) {
+            this.url = url;
+            this.inFile = inFile;
+            this.outFile = outFile;
+        }
+    }
 
     public static void main(String[] args) throws IOException {
-        Palette palette = parseRalDesign();
+        parseVariant(Variant.Classic);
+        parseVariant(Variant.Design);
+    }
+
+    private static void parseVariant(Variant vare) throws IOException {
+        Palette palette;
+        switch (vare){
+            case Classic:
+                palette = parseRalClassic(); break;
+            case Design:
+                palette = parseRalDesign(); break;
+            default:
+                return;
+        }
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .registerTypeAdapter(Color.class, new JsonConverter.ChipLayoutSerializer())
                 .create();
-        OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("ral-design.json"), StandardCharsets.UTF_8);
+        OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(vare.outFile), StandardCharsets.UTF_8);
         gson.toJson(palette, writer);
         writer.close();
     }
 
     private static Palette parseRalClassic() throws IOException {
-        Document doc = Jsoup.connect(urlClassic).get();
+        Document doc = Jsoup.parse(new File(Variant.Classic.inFile), "UTF-8", Variant.Classic.url);
         Elements els = doc.select("table.color-table > tbody > tr");
         Iterator<Element> iter = els.iterator();
         Element elm = iter.next();
@@ -56,8 +80,16 @@ public class PaletteParser {
                 group.chips = new ArrayList<>();
             } else {
                 ColorChip chip = new ColorChip();
-                chip.name = elm.child(1).selectFirst("b").text();
-                chip.description = elm.child(1).selectFirst("i").text();
+                Element te = elm.child(1);
+                chip.name = te.child(0).text();
+                if(te.child(1).tagName().equalsIgnoreCase("br")){
+                    chip.description = te.child(2).text();
+                    chip.extra = null;
+                }
+                else{
+                    chip.description = te.child(3).text();
+                    chip.extra = te.child(1).child(0).text();
+                }
                 chip.colorCMYKc = elm.child(2).text();
                 chip.colorCMYKu = elm.child(3).text();
                 chip.colorRGB = elm.child(4).text();
@@ -69,7 +101,7 @@ public class PaletteParser {
     }
 
     private static Palette parseRalDesign() throws IOException {
-        Document doc = Jsoup.connect(urlDesign).get();
+        Document doc = Jsoup.parse(new File(Variant.Design.inFile), "UTF-8", Variant.Design.url);
         Elements els = doc.select("table.color-table > tbody > tr");
         Iterator<Element> iter = els.iterator();
         Element elm = iter.next();
